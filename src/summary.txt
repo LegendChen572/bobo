@@ -1,0 +1,2383 @@
+Summary for finalDay/1231/new.jar
+Decompiled with CFR 0.150
+
+
+client.anticheat.CheatTracker
+----------------------------
+
+registerOffense(client.anticheat.CheatingOffense java.lang.String )
+  Unable to fully structure code
+
+
+client.Skill
+----------------------------
+
+loadFromData(int provider.MapleData provider.MapleData )
+  Unable to fully structure code
+
+
+client.BuddyList
+----------------------------
+
+addBuddyToDB(client.MapleCharacter client.BuddyEntry )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Tried to end blocks [3[TRYBLOCK]], but top level block is 5[TRYBLOCK]
+getBuddyCount(int int )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Tried to end blocks [4[TRYBLOCK]], but top level block is 7[TRYBLOCK]
+getBuddyPending(int int )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Tried to end blocks [4[TRYBLOCK]], but top level block is 7[TRYBLOCK]
+loadFromDb(int )
+  Loose catch block
+getBuddyCapacity(int )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Tried to end blocks [4[TRYBLOCK]], but top level block is 7[TRYBLOCK]
+
+
+client.MapleCharacterUtil
+----------------------------
+
+getNameById(int )
+  Loose catch block
+getIdByName(java.lang.String )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Tried to end blocks [4[TRYBLOCK], 2[TRYBLOCK]], but top level block is 7[TRYBLOCK]
+addPartTime(int byte long int )
+  Unable to fully structure code
+SetPoll(int int )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Tried to end blocks [0[TRYBLOCK]], but top level block is 7[CATCHBLOCK]
+getAccountNameByCharacterName(java.lang.String )
+  Loose catch block
+setbindac(int int )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Tried to end blocks [3[TRYBLOCK]], but top level block is 5[TRYBLOCK]
+getTotalAcc(java.lang.String )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Tried to end blocks [3[TRYBLOCK]], but top level block is 5[TRYBLOCK]
+sendNote(java.lang.String java.lang.String java.lang.String int )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Tried to end blocks [3[TRYBLOCK]], but top level block is 5[TRYBLOCK]
+setMonitored(int boolean )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Started 2 blocks at once
+isExistCharacterInDataBase(int )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Tried to end blocks [2[TRYBLOCK], 4[TRYBLOCK]], but top level block is 7[TRYBLOCK]
+loadAccountidByPlayerid(int )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Tried to end blocks [2[TRYBLOCK]], but top level block is 10[CATCHBLOCK]
+getCharacterNameByAccountName(java.lang.String )
+  Loose catch block
+getTotalChr(java.lang.String )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Tried to end blocks [3[TRYBLOCK]], but top level block is 5[TRYBLOCK]
+PromptPoll(int )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Tried to end blocks [0[TRYBLOCK], 2[TRYBLOCK]], but top level block is 10[CATCHBLOCK]
+removePartTime(int )
+  Unable to fully structure code
+getAccountNameByAccountId(int )
+  Unable to fully structure code
+sendAccNote(java.lang.String java.lang.String java.lang.String int )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Tried to end blocks [3[TRYBLOCK]], but top level block is 5[TRYBLOCK]
+getAcccountNameById(int int )
+  Loose catch block
+checkPassword(java.lang.String java.lang.String )
+  Unable to fully structure code
+getGiftAmount(int )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Tried to end blocks [3[TRYBLOCK]], but top level block is 5[TRYBLOCK]
+getInfoByName(java.lang.String int )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Tried to end blocks [2[TRYBLOCK], 4[TRYBLOCK]], but top level block is 7[TRYBLOCK]
+getPartTime(int )
+  Unable to fully structure code
+
+
+client.messages.commands.InternCommand
+----------------------------
+
+execute(client.MapleClient java.lang.String[] )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Tried to end blocks [2[TRYBLOCK]], but top level block is 6[TRYBLOCK]
+
+
+client.messages.commands.PracticerCommand
+----------------------------
+
+execute(client.MapleClient java.lang.String[] )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Tried to end blocks [1[TRYBLOCK]], but top level block is 3[TRYBLOCK]
+execute(client.MapleClient java.lang.String[] )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Started 2 blocks at once
+execute(client.MapleClient java.lang.String[] )
+  Unable to fully structure code
+
+
+client.messages.commands.LineBotCommand
+----------------------------
+
+execute(java.lang.String[] java.lang.String )
+  Unable to fully structure code
+
+
+client.messages.commands.AdminCommand
+----------------------------
+
+execute(client.MapleClient java.lang.String[] )
+  Unable to fully structure code
+execute(client.MapleClient java.lang.String[] )
+  Unable to fully structure code
+execute(client.MapleClient java.lang.String[] )
+  Unable to fully structure code
+execute(client.MapleClient java.lang.String[] )
+  Unable to fully structure code
+execute(client.MapleClient java.lang.String[] )
+  Unable to fully structure code
+getOfflineAcc()
+  Unable to fully structure code
+getOfflineAcc()
+  Unable to fully structure code
+execute(client.MapleClient java.lang.String[] )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Tried to end blocks [3[TRYBLOCK]], but top level block is 5[TRYBLOCK]
+
+
+client.messages.commands.player.eventSystem.MapOwner
+----------------------------
+
+execute(client.MapleClient java.lang.String[] )
+  Unable to fully structure code
+
+
+client.messages.commands.PlayerCommand
+----------------------------
+
+execute(client.MapleClient java.lang.String[] )
+  Unable to fully structure code
+
+
+client.messages.CommandProcessor
+----------------------------
+
+ALLATORIxDEMO()
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Tried to end blocks [1[TRYBLOCK]], but top level block is 26[CATCHBLOCK]
+ALLATORIxDEMO(client.MapleCharacter java.lang.String )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Tried to end blocks [0[TRYBLOCK]], but top level block is 8[CATCHBLOCK]
+
+
+client.inventory.CheckCopyItem
+----------------------------
+
+checkContainItems(int java.util.Map<java.lang.Long, tools.Pair<client.inventory.IItem, client.inventory.MapleInventoryType>> )
+  Unable to fully structure code
+
+
+client.inventory.CheckItemFactory
+----------------------------
+
+loadItemFromDB()
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Tried to end blocks [2[TRYBLOCK]], but top level block is 6[TRYBLOCK]
+
+
+client.inventory.MapleMount
+----------------------------
+
+ALLATORIxDEMO(int )
+  Unable to fully structure code
+H(int )
+  Unable to fully structure code
+addMountId(int int )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Tried to end blocks [3[TRYBLOCK]], but top level block is 5[TRYBLOCK]
+
+
+client.inventory.MaplePet
+----------------------------
+
+createPet(int java.lang.String int int int int int short )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Tried to end blocks [3[TRYBLOCK]], but top level block is 5[TRYBLOCK]
+clearPet()
+  Unable to fully structure code
+loadFromDb(int int short )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Tried to end blocks [2[TRYBLOCK]], but top level block is 6[TRYBLOCK]
+
+
+client.inventory.MapleAndroid
+----------------------------
+
+create(int int )
+  Unable to fully structure code
+saveToDb()
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Tried to end blocks [1[TRYBLOCK]], but top level block is 3[TRYBLOCK]
+
+
+client.inventory.ItemLoader
+----------------------------
+
+isExistsByUniqueid(int )
+  Unable to fully structure code
+saveItemsNew(java.util.List<tools.Pair<client.inventory.IItem, client.inventory.MapleInventoryType>> int int )
+  Unable to fully structure code
+uncompressA(java.lang.String )
+  Unable to fully structure code
+ALLATORIxDEMO(boolean int int int )
+  Unable to fully structure code
+compressA(java.lang.String )
+  Loose catch block
+loadItemsByJson(java.lang.String )
+  Unable to fully structure code
+saveItemInv(client.inventory.MapleInventoryType java.util.List<tools.Pair<client.inventory.IItem, client.inventory.MapleInventoryType>> java.lang.Integer[] )
+  Unable to fully structure code
+saveItems(java.util.List<tools.Pair<client.inventory.IItem, client.inventory.MapleInventoryType>> java.lang.Integer[] )
+  Unable to fully structure code
+
+
+client.inventory.MapleRing
+----------------------------
+
+loadFromDb(int boolean )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Tried to end blocks [4[TRYBLOCK]], but top level block is 8[TRYBLOCK]
+addToDB(int client.MapleCharacter java.lang.String int int[] )
+  Unable to fully structure code
+removeRingFromDB(client.MapleCharacter )
+  Unable to fully structure code
+
+
+client.inventory.MapleEquipIdOnly
+----------------------------
+
+StartChecking()
+  Unable to fully structure code
+StartCleaning()
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Tried to end blocks [5[TRYBLOCK]], but top level block is 8[TRYBLOCK]
+
+
+client.MonsterBook
+----------------------------
+
+loadCards(int )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Tried to end blocks [1[TRYBLOCK]], but top level block is 4[TRYBLOCK]
+
+
+client.status.MonsterStatus
+----------------------------
+
+<init>(int )
+  Unable to fully structure code
+
+
+client.BuddyEntry
+----------------------------
+
+getByIdfFromDB(int )
+  Loose catch block
+updateGroupName()
+  Unable to fully structure code
+getByNameFromDB(java.lang.String )
+  Loose catch block
+
+
+client.MapleCharacter
+----------------------------
+
+loadLoginKey(int )
+  Unable to fully structure code
+tempban(java.lang.String java.util.Calendar int boolean )
+  Unable to fully structure code
+setAcash(int )
+  Unable to fully structure code
+getofflinechannel()
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Tried to end blocks [3[TRYBLOCK]], but top level block is 5[TRYBLOCK]
+saveToDB(boolean boolean )
+  Loose catch block
+getOfflineItems()
+  Unable to fully structure code
+gainExpMonster(int boolean boolean int int int server.life.MapleMonster )
+  Unable to fully structure code
+addMonsterPetKill(int )
+  Unable to fully structure code
+setSignLog(int )
+  Unable to fully structure code
+getDayLogReload(java.lang.String )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Tried to end blocks [1[TRYBLOCK], 3[TRYBLOCK]], but top level block is 5[TRYBLOCK]
+getOneTimeLog(java.lang.String )
+  Unable to fully structure code
+OfflineBanById(int java.lang.String )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Tried to end blocks [4[TRYBLOCK]], but top level block is 8[TRYBLOCK]
+modifyDamageTaken(double server.maps.MapleMapObject int )
+  Unable to fully structure code
+getBossLogWeek(java.lang.String )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Tried to end blocks [1[TRYBLOCK], 3[TRYBLOCK]], but top level block is 5[TRYBLOCK]
+getDayLog(java.lang.String )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Tried to end blocks [3[TRYBLOCK], 1[TRYBLOCK]], but top level block is 5[TRYBLOCK]
+UpdateCharacterString(java.lang.String java.lang.String )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Tried to end blocks [3[TRYBLOCK]], but top level block is 5[TRYBLOCK]
+setMonsterPet(int )
+  Unable to fully structure code
+ALLATORIxDEMO(java.lang.String )
+  Unable to fully structure code
+getEventCount(java.lang.String )
+  Unable to fully structure code
+getPrizeLog(java.lang.String )
+  Unable to fully structure code
+ban(java.lang.String java.lang.String java.lang.String boolean int boolean )
+  Unable to fully structure code
+setMP(java.util.Map<client.MapleCharacter, java.lang.Integer> boolean )
+  Unable to fully structure code
+setOneTimeLog(java.lang.String )
+  Unable to fully structure code
+deleteNote(int int )
+  Unable to fully structure code
+spawnPet(byte boolean boolean )
+  Unable to fully structure code
+addOnlineSecond()
+  Unable to fully structure code
+afterAttack(int int int )
+  Unable to fully structure code
+loadCharFromDB(int client.MapleClient boolean java.util.Map<java.lang.Integer, server.characterCards.CardData> )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Tried to end blocks [2[TRYBLOCK]], but top level block is 18[CATCHBLOCK]
+addMonsterPetLevel(int )
+  Unable to fully structure code
+getMP()
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Started 2 blocks at once
+ban(java.lang.String boolean boolean boolean )
+  Unable to fully structure code
+loadCharacterString()
+  Unable to fully structure code
+setDayLog(java.lang.String )
+  Unable to fully structure code
+saveFamilyStatus()
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Tried to end blocks [3[TRYBLOCK], 1[TRYBLOCK]], but top level block is 5[TRYBLOCK]
+getMonitored()
+  Loose catch block
+RemoveHired()
+  Unable to fully structure code
+getSignTimes()
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Tried to end blocks [3[TRYBLOCK]], but top level block is 5[TRYBLOCK]
+getTotems()
+  Unable to fully structure code
+equip(int boolean boolean )
+  Unable to fully structure code
+setEventCount(java.lang.String )
+  Unable to fully structure code
+getAuctionItems()
+  Unable to fully structure code
+hasGivenFame(client.MapleCharacter )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Tried to end blocks [3[TRYBLOCK]], but top level block is 5[TRYBLOCK]
+loadCharacterJson()
+  Loose catch block
+ALLATORIxDEMO(java.util.List<handling.opcodes.MapleBuffStat> server.MapleStatEffect boolean long )
+  Unable to fully structure code
+OfflineBanByName(java.lang.String java.lang.String )
+  Loose catch block
+gainExp(int boolean boolean boolean )
+  Unable to fully structure code
+setMP(int )
+  Unable to fully structure code
+loadCharacterNamesByAccId(int )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Tried to end blocks [2[TRYBLOCK]], but top level block is 6[TRYBLOCK]
+saveNewCharToDB(client.MapleCharacter handling.login.LoginInformationProvider$JobType short int )
+  Unable to fully structure code
+gainDonate(java.lang.String int )
+  Unable to fully structure code
+getBossLog(int java.lang.String )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Tried to end blocks [1[TRYBLOCK], 3[TRYBLOCK]], but top level block is 5[TRYBLOCK]
+getMonsterPetLevel(int )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Tried to end blocks [3[TRYBLOCK], 1[TRYBLOCK]], but top level block is 5[TRYBLOCK]
+showNote()
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Tried to end blocks [3[TRYBLOCK]], but top level block is 6[TRYBLOCK]
+gainOfflineItem(int int )
+  Unable to fully structure code
+changeJob(int )
+  Unable to fully structure code
+saveofflinelocations()
+  Unable to fully structure code
+getBossLogTime(java.lang.String int )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Started 2 blocks at once
+hasMonsterPet(int )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Tried to end blocks [3[TRYBLOCK]], but top level block is 6[TRYBLOCK]
+clearofflinelocations()
+  Unable to fully structure code
+teachSkill(int int )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Tried to end blocks [3[TRYBLOCK]], but top level block is 6[TRYBLOCK]
+UpdateCharacter(java.lang.String int )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Tried to end blocks [3[TRYBLOCK]], but top level block is 5[TRYBLOCK]
+getofflinemap()
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Tried to end blocks [3[TRYBLOCK]], but top level block is 5[TRYBLOCK]
+getDefault(client.MapleClient int )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Tried to end blocks [3[TRYBLOCK]], but top level block is 6[TRYBLOCK]
+setMonsterPetLevel(int )
+  Unable to fully structure code
+setPrizeLog(java.lang.String )
+  Unable to fully structure code
+getMonsterPet(int )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Tried to end blocks [1[TRYBLOCK], 3[TRYBLOCK]], but top level block is 5[TRYBLOCK]
+addSignLog()
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Started 6 blocks at once
+setMonsterPetSkill(int )
+  Unable to fully structure code
+getofflinetime()
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Tried to end blocks [3[TRYBLOCK]], but top level block is 5[TRYBLOCK]
+getIdByName(java.lang.String )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Tried to end blocks [4[TRYBLOCK], 2[TRYBLOCK]], but top level block is 7[TRYBLOCK]
+resetPrizeLog(java.lang.String )
+  Unable to fully structure code
+getMonsterPetKill(int )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Tried to end blocks [3[TRYBLOCK], 1[TRYBLOCK]], but top level block is 5[TRYBLOCK]
+gainDonate(int )
+  Unable to fully structure code
+getAcash(client.MapleCharacter )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Started 2 blocks at once
+DoLevelMsg()
+  Unable to fully structure code
+gainMeso(int boolean boolean boolean boolean )
+  Unable to fully structure code
+
+
+client.MapleStat
+----------------------------
+
+reloadValues()
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Tried to end blocks [3[TRYBLOCK], 1[TRYBLOCK]], but top level block is 10[CATCHBLOCK]
+
+
+client.MapleCoreAura
+----------------------------
+
+createCoreAura(int int )
+  Unable to fully structure code
+loadFromDb(int int )
+  Unable to fully structure code
+
+
+client.PlayerStats
+----------------------------
+
+handlePlayerRate(client.MapleCharacter )
+  Unable to fully structure code
+relocHeal()
+  Unable to fully structure code
+recalcLocalStats(boolean )
+  Unable to fully structure code
+
+
+client.MapleClient
+----------------------------
+
+getYesturdayDonateRank()
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Tried to end blocks [1[TRYBLOCK]], but top level block is 4[TRYBLOCK]
+gainDonatePoints(int )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Tried to end blocks [1[TRYBLOCK], 3[TRYBLOCK]], but top level block is 5[TRYBLOCK]
+getTotalDonate()
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Tried to end blocks [3[TRYBLOCK]], but top level block is 5[TRYBLOCK]
+updatePassword(java.lang.String )
+  Unable to fully structure code
+gainpoint(java.lang.String int )
+  Unable to fully structure code
+UpdateAccount(java.lang.String int )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Tried to end blocks [3[TRYBLOCK]], but top level block is 5[TRYBLOCK]
+getMonthDonate()
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Tried to end blocks [3[TRYBLOCK]], but top level block is 5[TRYBLOCK]
+loadAccountData(int )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Tried to end blocks [0[TRYBLOCK], 2[TRYBLOCK]], but top level block is 10[CATCHBLOCK]
+unbanIP(java.lang.String )
+  Loose catch block
+update2ndPassword(java.lang.String java.lang.String )
+  Unable to fully structure code
+banMacs(java.lang.String[] )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Tried to end blocks [12[WHILELOOP]], but top level block is 4[TRYBLOCK]
+setGM(int )
+  Unable to fully structure code
+loadCharacterNamesByCharId(int )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Tried to end blocks [2[TRYBLOCK]], but top level block is 6[TRYBLOCK]
+deleteCharacter(int boolean boolean )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Tried to end blocks [0[TRYBLOCK], 2[TRYBLOCK]], but top level block is 19[CATCHBLOCK]
+gaingash(java.lang.String java.lang.String )
+  Unable to fully structure code
+loadAccountidByPlayerid(int )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Tried to end blocks [0[TRYBLOCK], 2[TRYBLOCK]], but top level block is 10[CATCHBLOCK]
+getAccNameByChrName(java.lang.String )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Tried to end blocks [1[TRYBLOCK]], but top level block is 4[TRYBLOCK]
+isBannedIP(java.lang.String )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Tried to end blocks [4[TRYBLOCK]], but top level block is 7[TRYBLOCK]
+ALLATORIxDEMO(int )
+  Unable to fully structure code
+loadCharacterIDsByAccId(int )
+  Loose catch block
+getLoginState()
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Tried to end blocks [3[TRYBLOCK]], but top level block is 6[TRYBLOCK]
+updateGender()
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Tried to end blocks [3[TRYBLOCK]], but top level block is 5[TRYBLOCK]
+update2ndPassword()
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Tried to end blocks [4[TRYBLOCK]], but top level block is 6[TRYBLOCK]
+getTodayDonateRank()
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Tried to end blocks [1[TRYBLOCK]], but top level block is 4[TRYBLOCK]
+ALLATORIxDEMO(int )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Tried to end blocks [2[TRYBLOCK]], but top level block is 6[TRYBLOCK]
+getLastIPAddress()
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Tried to end blocks [4[TRYBLOCK]], but top level block is 7[TRYBLOCK]
+unbanIPMacs(java.lang.String )
+  Unable to fully structure code
+sendCGMLog(client.MapleClient java.lang.String )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Tried to end blocks [3[TRYBLOCK]], but top level block is 5[TRYBLOCK]
+getIPstatus(java.lang.String boolean )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Tried to end blocks [1[TRYBLOCK], 3[TRYBLOCK]], but top level block is 6[TRYBLOCK]
+removalTask(boolean )
+  Unable to fully structure code
+H()
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Tried to end blocks [3[TRYBLOCK]], but top level block is 5[TRYBLOCK]
+getTodayDonate()
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Tried to end blocks [3[TRYBLOCK]], but top level block is 5[TRYBLOCK]
+loadVip(int )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Tried to end blocks [2[TRYBLOCK], 0[TRYBLOCK]], but top level block is 10[CATCHBLOCK]
+updateLoginState(int java.lang.String )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Tried to end blocks [3[TRYBLOCK]], but top level block is 10[CATCHBLOCK]
+updateSecondPassword()
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Tried to end blocks [3[TRYBLOCK]], but top level block is 5[TRYBLOCK]
+AccNameExist(java.lang.String )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Tried to end blocks [1[TRYBLOCK]], but top level block is 4[TRYBLOCK]
+setVip(int )
+  Unable to fully structure code
+updatename(java.lang.String java.lang.String )
+  Unable to fully structure code
+loadCharacterNamesByAccId(int )
+  Loose catch block
+getYesturdayDonate()
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Tried to end blocks [3[TRYBLOCK]], but top level block is 5[TRYBLOCK]
+HackChrName()
+  Unable to fully structure code
+updateLoginKey(java.lang.String )
+  Unable to fully structure code
+SetMonitored(boolean )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Started 2 blocks at once
+getMonitored(java.lang.String )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Tried to end blocks [4[TRYBLOCK], 2[TRYBLOCK]], but top level block is 7[TRYBLOCK]
+gainVpoint(java.lang.String int )
+  Unable to fully structure code
+updateClientMac(java.lang.String )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Tried to end blocks [3[TRYBLOCK]], but top level block is 5[TRYBLOCK]
+update2ndPassword(java.lang.String )
+  Unable to fully structure code
+getMonthDonateRank()
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Tried to end blocks [1[TRYBLOCK]], but top level block is 4[TRYBLOCK]
+unban(java.lang.String )
+  Unable to fully structure code
+gainCharacterSlot()
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Tried to end blocks [1[TRYBLOCK]], but top level block is 3[TRYBLOCK]
+loadAccountInfoByPlayerid(int )
+  Unable to fully structure code
+getLinebindac(int )
+  Unable to fully structure code
+findAccIdForCharacterName(java.lang.String )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Tried to end blocks [4[TRYBLOCK]], but top level block is 7[TRYBLOCK]
+getCharacterSlots()
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Started 2 blocks at once
+isBannedMac(java.lang.String )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Tried to end blocks [2[TRYBLOCK]], but top level block is 5[TRYBLOCK]
+getLoggedIdsFromDB(int )
+  Loose catch block
+disconnect(boolean boolean )
+  Unable to fully structure code
+hasBannedIP()
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Tried to end blocks [4[TRYBLOCK]], but top level block is 7[TRYBLOCK]
+getDonatePoints()
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Tried to end blocks [3[TRYBLOCK]], but top level block is 5[TRYBLOCK]
+getDonateRank()
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Tried to end blocks [1[TRYBLOCK]], but top level block is 4[TRYBLOCK]
+unHellban(java.lang.String )
+  Loose catch block
+banMacs(java.lang.String )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Tried to end blocks [1[TRYBLOCK]], but top level block is 3[TRYBLOCK]
+ChrDangerousAcc()
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Tried to end blocks [4[TRYBLOCK]], but top level block is 8[TRYBLOCK]
+SetMonitored(java.lang.String boolean )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Started 2 blocks at once
+UpdateAccountString(java.lang.String java.lang.String )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Tried to end blocks [3[TRYBLOCK]], but top level block is 5[TRYBLOCK]
+gainmaplepoint(java.lang.String java.lang.String )
+  Unable to fully structure code
+login(java.lang.String java.lang.String boolean )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Started 5 blocks at once
+banSingleMacs(java.lang.String )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Tried to end blocks [1[TRYBLOCK]], but top level block is 3[TRYBLOCK]
+
+
+client.ItemVac
+----------------------------
+
+run()
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Started 2 blocks at once
+
+
+constants.BanAttackIP
+----------------------------
+
+reDumpAtackIp()
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Started 4 blocks at once
+loadAttackIP()
+  Unable to fully structure code
+
+
+constants.ServerSet
+----------------------------
+
+saveServerSet()
+  Loose catch block
+loadServerSet()
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Tried to end blocks [1[TRYBLOCK]], but top level block is 4[TRYBLOCK]
+
+
+database.DBConPool
+----------------------------
+
+createDatabase()
+  Unable to fully structure code
+ColumnExist(java.lang.String java.lang.String )
+  Unable to fully structure code
+TableExist(java.lang.String )
+  Loose catch block
+
+
+database.DatabaseConnection
+----------------------------
+
+getConnection()
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Tried to end blocks [1[TRYBLOCK]], but top level block is 3[TRYBLOCK]
+close()
+  Unable to fully structure code
+
+
+FuckingHackerToby.cd
+----------------------------
+
+H(java.lang.String )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Tried to end blocks [3[TRYBLOCK]], but top level block is 6[TRYBLOCK]
+ALLATORIxDEMO(java.lang.String )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Tried to end blocks [3[TRYBLOCK]], but top level block is 6[TRYBLOCK]
+ALLATORIxDEMO(java.lang.String java.lang.String )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Tried to end blocks [3[TRYBLOCK]], but top level block is 6[TRYBLOCK]
+ALLATORIxDEMO(java.lang.String )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Tried to end blocks [3[TRYBLOCK]], but top level block is 6[TRYBLOCK]
+D(java.lang.String )
+  Unable to fully structure code
+H(java.lang.String java.lang.String )
+  Unable to fully structure code
+
+
+FuckingHackerToby.Va
+----------------------------
+
+close()
+  Unable to fully structure code
+
+
+handling.MapleServerHandler
+----------------------------
+
+channelInactive(io.netty.channel.ChannelHandlerContext )
+  Unable to fully structure code
+
+
+handling.login.handler.AutoRegister
+----------------------------
+
+getAccountExists(java.lang.String )
+  Unable to fully structure code
+createAccount(java.lang.String java.lang.String java.lang.String java.lang.String )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Tried to end blocks [3[TRYBLOCK]], but top level block is 17[CATCHBLOCK]
+getIpExists(java.lang.String )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Tried to end blocks [2[TRYBLOCK], 4[TRYBLOCK]], but top level block is 7[TRYBLOCK]
+
+
+handling.login.handler.CharLoginHandler
+----------------------------
+
+handleLogin(tools.data.LittleEndianAccessor client.MapleClient )
+  Unable to fully structure code
+handleSelectCharacter(tools.data.LittleEndianAccessor client.MapleClient boolean )
+  Unable to fully structure code
+
+
+handling.login.LoginInformationProvider
+----------------------------
+
+<init>()
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Tried to end blocks [2[DOLOOP]], but top level block is 7[DOLOOP]
+
+
+handling.channel.handler.ItemMakerHandler
+----------------------------
+
+CraftComplete(tools.data.LittleEndianAccessor client.MapleClient client.MapleCharacter )
+  Unable to fully structure code
+
+
+handling.channel.handler.FamilyHandler
+----------------------------
+
+UseFamily(tools.data.LittleEndianAccessor client.MapleClient )
+  Unable to fully structure code
+
+
+handling.channel.handler.DamageParse
+----------------------------
+
+H(client.MapleCharacter server.life.MapleMonster handling.channel.handler.AttackInfo client.ISkill server.MapleStatEffect double java.lang.Integer )
+  Unable to fully structure code
+ALLATORIxDEMO(client.MapleCharacter server.MapleStatEffect handling.channel.handler.AttackInfo )
+  Unable to fully structure code
+applyAttack(handling.channel.handler.AttackInfo client.ISkill client.MapleCharacter int double server.MapleStatEffect handling.channel.handler.AttackType )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Tried to end blocks [17[UNCONDITIONALDOLOOP]], but top level block is 0[TRYBLOCK]
+CheckAttackCount(handling.channel.handler.AttackInfo client.MapleCharacter server.MapleStatEffect int )
+  Unable to fully structure code
+ALLATORIxDEMO(client.MapleCharacter server.life.MapleMonster handling.channel.handler.AttackInfo client.ISkill server.MapleStatEffect double java.lang.Integer )
+  Unable to fully structure code
+
+
+handling.channel.handler.BBSHandler
+----------------------------
+
+HandleBBS(tools.data.LittleEndianAccessor client.MapleClient )
+  Unable to fully structure code
+
+
+handling.channel.handler.PlayerHandler
+----------------------------
+
+UseChair(tools.data.LittleEndianAccessor client.MapleClient client.MapleCharacter )
+  Unable to fully structure code
+MovePlayer(tools.data.LittleEndianAccessor client.MapleClient client.MapleCharacter )
+  Unable to fully structure code
+TrockAddMap(tools.data.LittleEndianAccessor client.MapleClient client.MapleCharacter )
+  Unable to fully structure code
+rangedAttack(tools.data.LittleEndianAccessor client.MapleClient client.MapleCharacter )
+  Unable to fully structure code
+WingChange(tools.data.LittleEndianAccessor client.MapleClient client.MapleCharacter )
+  Unable to fully structure code
+ChangeMap(tools.data.LittleEndianAccessor client.MapleClient client.MapleCharacter )
+  Unable to fully structure code
+closeRangeAttack(tools.data.LittleEndianAccessor client.MapleClient client.MapleCharacter boolean )
+  Unable to fully structure code
+SpecialMove(tools.data.LittleEndianAccessor client.MapleClient client.MapleCharacter )
+  Unable to fully structure code
+MagicDamage(tools.data.LittleEndianAccessor client.MapleClient client.MapleCharacter )
+  Unable to fully structure code
+TrockAddMap135(tools.data.LittleEndianAccessor client.MapleClient client.MapleCharacter )
+  Unable to fully structure code
+TakeDamage(tools.data.LittleEndianAccessor client.MapleClient client.MapleCharacter )
+  Unable to fully structure code
+
+
+handling.channel.handler.PlayersHandler
+----------------------------
+
+UseAnyWhereDoor(tools.data.LittleEndianAccessor client.MapleClient client.MapleCharacter )
+  Unable to fully structure code
+RingAction(tools.data.LittleEndianAccessor client.MapleClient )
+  Unable to fully structure code
+
+
+handling.channel.handler.ChatHandler
+----------------------------
+
+WhisperFind(tools.data.LittleEndianAccessor client.MapleClient )
+  Unable to fully structure code
+GeneralChat(java.lang.String byte client.MapleClient client.MapleCharacter )
+  Unable to fully structure code
+
+
+handling.channel.handler.HiredMerchantHandler
+----------------------------
+
+checkExistance(int int )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Tried to end blocks [2[TRYBLOCK]], but top level block is 6[TRYBLOCK]
+loadItemFromDatabase(int int )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Tried to end blocks [1[TRYBLOCK], 5[TRYBLOCK]], but top level block is 10[CATCHBLOCK]
+loadItemFromDatabase_(int int )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Tried to end blocks [1[TRYBLOCK], 5[TRYBLOCK]], but top level block is 10[CATCHBLOCK]
+ALLATORIxDEMO(int int int )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Started 2 blocks at once
+
+
+handling.channel.handler.MobHandler
+----------------------------
+
+CheckMobVac_New(client.MapleClient server.life.MapleMonster java.util.List<server.movement.LifeMovementFragment> java.awt.Point )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Started 3 blocks at once
+CheckMobVac_x(client.MapleClient server.life.MapleMonster java.util.List<server.movement.LifeMovementFragment> java.awt.Point )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Started 2 blocks at once
+CheckMobVac(client.MapleClient server.life.MapleMonster java.util.List<server.movement.LifeMovementFragment> java.awt.Point )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Started 2 blocks at once
+
+
+handling.channel.handler.BuddyListHandler
+----------------------------
+
+BuddyOperationHandler(tools.data.LittleEndianAccessor client.MapleClient )
+  Unable to fully structure code
+
+
+handling.channel.handler.InventoryHandler
+----------------------------
+
+handlePickup(client.MapleClient client.MapleCharacter server.maps.MapleMapObject java.awt.Point boolean )
+  Unable to fully structure code
+UseScriptedNPCItem(tools.data.LittleEndianAccessor client.MapleClient client.MapleCharacter )
+  Unable to fully structure code
+ApRedistribute(client.MapleClient client.MapleStat client.MapleStat )
+  Unable to fully structure code
+UseMagicWheel(tools.data.LittleEndianAccessor client.MapleClient client.MapleCharacter )
+  Unable to fully structure code
+UseCashItem(tools.data.LittleEndianAccessor client.MapleClient )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Tried to end blocks [93[DOLOOP]], but top level block is 94[WHILELOOP]
+OwlMinerva(tools.data.LittleEndianAccessor client.MapleClient )
+  Unable to fully structure code
+UseMagnify(byte byte client.MapleClient )
+  Unable to fully structure code
+
+
+handling.channel.handler.StatsHandling
+----------------------------
+
+DistributeHyperSP(int client.MapleClient client.MapleCharacter boolean )
+  Unable to fully structure code
+
+
+handling.channel.handler.MonsterCarnivalHandler
+----------------------------
+
+MonsterCarnival(tools.data.LittleEndianAccessor client.MapleClient )
+  Unable to fully structure code
+
+
+handling.channel.handler.HiredFishingHandler
+----------------------------
+
+ALLATORIxDEMO(int int int )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Started 2 blocks at once
+ALLATORIxDEMO(int int int )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Tried to end blocks [2[TRYBLOCK]], but top level block is 6[TRYBLOCK]
+loadItemFrom_Database(int int int )
+  Loose catch block
+
+
+handling.channel.MapleRanking
+----------------------------
+
+i()
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Tried to end blocks [3[TRYBLOCK], 1[TRYBLOCK]], but top level block is 5[TRYBLOCK]
+b()
+  Unable to fully structure code
+H()
+  Loose catch block
+d()
+  Unable to fully structure code
+ALLATORIxDEMO(int )
+  Unable to fully structure code
+ALLATORIxDEMO()
+  Loose catch block
+c()
+  Unable to fully structure code
+K()
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Tried to end blocks [1[TRYBLOCK], 3[TRYBLOCK]], but top level block is 5[TRYBLOCK]
+ALLATORIxDEMO(java.lang.String boolean )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Tried to end blocks [1[TRYBLOCK]], but top level block is 11[UNCONDITIONALDOLOOP]
+g()
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Tried to end blocks [3[TRYBLOCK], 1[TRYBLOCK]], but top level block is 5[TRYBLOCK]
+D()
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Tried to end blocks [1[TRYBLOCK], 3[TRYBLOCK]], but top level block is 5[TRYBLOCK]
+l()
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Tried to end blocks [3[TRYBLOCK]], but top level block is 5[TRYBLOCK]
+B()
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Tried to end blocks [3[TRYBLOCK], 1[TRYBLOCK]], but top level block is 5[TRYBLOCK]
+E()
+  Unable to fully structure code
+
+
+handling.channel.ChannelServer
+----------------------------
+
+getExpRate(int client.MapleCharacter )
+  Unable to fully structure code
+
+
+handling.world.CharacterTransfer
+----------------------------
+
+readExternal(java.io.ObjectInput )
+  Unable to fully structure code
+
+
+handling.world.family.MapleFamilyCharacter
+----------------------------
+
+resetPedigree(handling.world.family.MapleFamily )
+  Unable to fully structure code
+
+
+handling.world.family.MapleFamily
+----------------------------
+
+loadAll()
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Tried to end blocks [3[TRYBLOCK], 1[TRYBLOCK]], but top level block is 5[TRYBLOCK]
+createFamily(int )
+  Loose catch block
+deleteFamily(int )
+  Unable to fully structure code
+writeToDB(boolean )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Tried to end blocks [3[TRYBLOCK]], but top level block is 6[TRYBLOCK]
+setOfflineFamilyStatus(int int int int int int int )
+  Unable to fully structure code
+
+
+handling.world.World
+----------------------------
+
+handleCharacterBuff(server.maps.MapleMap int int long )
+  Unable to fully structure code
+handleCooldowns(client.MapleCharacter int boolean )
+  Unable to fully structure code
+<clinit>()
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Tried to end blocks [3[TRYBLOCK]], but top level block is 6[TRYBLOCK]
+
+
+handling.world.sidekick.MapleSidekick
+----------------------------
+
+loadAll()
+  Unable to fully structure code
+<init>(int )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Tried to end blocks [9[WHILELOOP]], but top level block is 4[TRYBLOCK]
+create(int int )
+  Loose catch block
+
+
+handling.world.guild.MapleGuildAlliance
+----------------------------
+
+loadAll()
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Tried to end blocks [2[TRYBLOCK]], but top level block is 6[TRYBLOCK]
+saveToDb()
+  Unable to fully structure code
+ForceDeleteAlliance(int )
+  Unable to fully structure code
+deleteAlliance()
+  Unable to fully structure code
+<init>(int )
+  Loose catch block
+
+
+handling.world.guild.MapleGuild
+----------------------------
+
+loadAll()
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Tried to end blocks [2[TRYBLOCK]], but top level block is 6[TRYBLOCK]
+increaseCapacity()
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Tried to end blocks [1[TRYBLOCK]], but top level block is 3[TRYBLOCK]
+setAllianceId(int )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Tried to end blocks [3[TRYBLOCK]], but top level block is 5[TRYBLOCK]
+setGuildEmblem(short byte short byte )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Tried to end blocks [3[TRYBLOCK]], but top level block is 5[TRYBLOCK]
+<init>(int )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Tried to end blocks [0[TRYBLOCK]], but top level block is 5[TRYBLOCK]
+savePoints()
+  Unable to fully structure code
+writeToDB(boolean )
+  Unable to fully structure code
+saveCharacterGuildInfo(int byte byte int )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Tried to end blocks [3[TRYBLOCK]], but top level block is 5[TRYBLOCK]
+
+
+handling.world.guild.MapleGuildResponse
+----------------------------
+
+<init>(int )
+  Unable to fully structure code
+
+
+handling.cashshop.handler.CashShopOperation
+----------------------------
+
+BuyCashItem(tools.data.LittleEndianAccessor client.MapleClient client.MapleCharacter )
+  Unable to fully structure code
+deleteCashshopItem(java.lang.String int )
+  Unable to fully structure code
+
+
+handling.opcodes.MapleBuffStat
+----------------------------
+
+reloadValues()
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Tried to end blocks [1[TRYBLOCK], 3[TRYBLOCK]], but top level block is 10[CATCHBLOCK]
+
+
+handling.opcodes.GmEffectType
+----------------------------
+
+reloadValues()
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Tried to end blocks [3[TRYBLOCK], 1[TRYBLOCK]], but top level block is 10[CATCHBLOCK]
+
+
+handling.opcodes.GameDirectionType
+----------------------------
+
+reloadValues()
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Tried to end blocks [1[TRYBLOCK], 3[TRYBLOCK]], but top level block is 10[CATCHBLOCK]
+
+
+handling.opcodes.SmegaType
+----------------------------
+
+reloadValues()
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Tried to end blocks [3[TRYBLOCK], 1[TRYBLOCK]], but top level block is 10[CATCHBLOCK]
+
+
+handling.opcodes.VegaScrollType
+----------------------------
+
+reloadValues()
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Tried to end blocks [1[TRYBLOCK], 3[TRYBLOCK]], but top level block is 10[CATCHBLOCK]
+
+
+handling.opcodes.SpecialEffect
+----------------------------
+
+reloadValues()
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Tried to end blocks [3[TRYBLOCK], 1[TRYBLOCK]], but top level block is 10[CATCHBLOCK]
+
+
+handling.opcodes.PlayerInteraction
+----------------------------
+
+reloadValues()
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Tried to end blocks [3[TRYBLOCK], 1[TRYBLOCK]], but top level block is 10[CATCHBLOCK]
+
+
+handling.opcodes.BuyCashShopType
+----------------------------
+
+reloadValues()
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Tried to end blocks [3[TRYBLOCK], 1[TRYBLOCK]], but top level block is 10[CATCHBLOCK]
+
+
+handling.opcodes.AdminNoticeType
+----------------------------
+
+reloadValues()
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Tried to end blocks [3[TRYBLOCK], 1[TRYBLOCK]], but top level block is 10[CATCHBLOCK]
+
+
+handling.opcodes.CashShopType
+----------------------------
+
+reloadValues()
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Tried to end blocks [3[TRYBLOCK], 1[TRYBLOCK]], but top level block is 10[CATCHBLOCK]
+
+
+handling.opcodes.StatusInfoType
+----------------------------
+
+reloadValues()
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Tried to end blocks [1[TRYBLOCK], 3[TRYBLOCK]], but top level block is 10[CATCHBLOCK]
+
+
+handling.SendPacketOpcode
+----------------------------
+
+reloadValues()
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Tried to end blocks [1[TRYBLOCK], 3[TRYBLOCK]], but top level block is 10[CATCHBLOCK]
+
+
+handling.RecvPacketOpcode
+----------------------------
+
+reloadValues()
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Tried to end blocks [3[TRYBLOCK], 1[TRYBLOCK]], but top level block is 10[CATCHBLOCK]
+
+
+lottery.LotteryImpl
+----------------------------
+
+deletequest()
+  Unable to fully structure code
+drawalottery()
+  Unable to fully structure code
+deletebuff()
+  Unable to fully structure code
+test3()
+  Unable to fully structure code
+
+
+scripting.event.EventInstanceManager
+----------------------------
+
+registerPlayer(client.MapleCharacter )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Tried to end blocks [0[TRYBLOCK]], but top level block is 4[CATCHBLOCK]
+
+
+scripting.event.EventManager
+----------------------------
+
+scheduleRandomEventInChannel(int int )
+  Unable to fully structure code
+
+
+scripting.AbstractPlayerInteraction
+----------------------------
+
+haveNamePrize(java.lang.String )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Tried to end blocks [1[TRYBLOCK], 3[TRYBLOCK]], but top level block is 5[TRYBLOCK]
+deleteNamePrizeLog(java.lang.String )
+  Unable to fully structure code
+sendPQreward()
+  Unable to fully structure code
+
+
+scripting.npc.NPCConversationManager
+----------------------------
+
+CreateLog(java.lang.String )
+  Unable to fully structure code
+giveMerchantMesos()
+  Unable to fully structure code
+getMerchantMesos()
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Tried to end blocks [4[TRYBLOCK], 2[TRYBLOCK]], but top level block is 7[TRYBLOCK]
+EnchantCashEqipAnnMS(byte int )
+  Unable to fully structure code
+EnchantEqipp(byte int )
+  Unable to fully structure code
+ShowEventCount()
+  Unable to fully structure code
+getRecroNews()
+  Unable to fully structure code
+EnchantCashEqip(byte int )
+  Unable to fully structure code
+setAvatar(int int boolean )
+  Unable to fully structure code
+
+
+scripting.AbstractScriptManager
+----------------------------
+
+getInvocable(java.lang.String client.MapleClient boolean )
+  Unable to fully structure code
+
+
+scripting.reactor.ReactorScriptManager
+----------------------------
+
+getDrops(int )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Tried to end blocks [0[TRYBLOCK]], but top level block is 5[TRYBLOCK]
+
+
+server.CashItemFlag
+----------------------------
+
+reloadValues()
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Tried to end blocks [1[TRYBLOCK], 3[TRYBLOCK]], but top level block is 10[CATCHBLOCK]
+
+
+server.RandomRewards
+----------------------------
+
+ALLATORIxDEMO(java.lang.String )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Tried to end blocks [2[TRYBLOCK]], but top level block is 6[TRYBLOCK]
+
+
+server.characterCards.CharacterCardFactory
+----------------------------
+
+loadCharactersInfo(int int )
+  Loose catch block
+loadCharacterCards(int int )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Started 2 blocks at once
+
+
+server.characterCards.MapleCharacterCards
+----------------------------
+
+recalcLocalStats(client.MapleCharacter )
+  Unable to fully structure code
+
+
+server.MapleStorage
+----------------------------
+
+loadStorage(int int int server.MapleStorageType )
+  Unable to fully structure code
+saveToDB()
+  Unable to fully structure code
+
+
+server.game.BlackJack
+----------------------------
+
+getBlackJackCard(client.MapleCharacter boolean )
+  Unable to fully structure code
+
+
+server.game.Lottory
+----------------------------
+
+getRules()
+  Exception : java.lang.IndexOutOfBoundsException: Index -1 out of bounds for length 0
+
+
+server.game.NiuNiu
+----------------------------
+
+SendReward()
+  Unable to fully structure code
+
+
+server.life.MobSkill
+----------------------------
+
+applyEffect(client.MapleCharacter server.life.MapleMonster boolean )
+  Unable to fully structure code
+
+
+server.life.MapleMonster
+----------------------------
+
+doDropItem(long )
+  Unable to fully structure code
+applyStatus(client.MapleCharacter client.status.MonsterStatusEffect boolean long boolean server.MapleStatEffect int boolean )
+  Unable to fully structure code
+
+
+server.life.MapleLifeFactory
+----------------------------
+
+loadNpcNames()
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Tried to end blocks [1[TRYBLOCK]], but top level block is 4[TRYBLOCK]
+getMonsterA(int )
+  Unable to fully structure code
+getMonsterB(int )
+  Unable to fully structure code
+ReloadNpcNames()
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Tried to end blocks [1[TRYBLOCK]], but top level block is 4[TRYBLOCK]
+
+
+server.life.PlayerNPC
+----------------------------
+
+destroy(boolean )
+  Unable to fully structure code
+saveToDB()
+  Unable to fully structure code
+loadAll()
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Tried to end blocks [2[TRYBLOCK]], but top level block is 6[TRYBLOCK]
+
+
+server.life.ChangeableStats
+----------------------------
+
+<init>(server.life.MapleMonster server.life.MapleMonsterStats boolean )
+  Unable to fully structure code
+
+
+server.life.MobSkillFactory
+----------------------------
+
+ALLATORIxDEMO()
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Tried to end blocks [2[TRYBLOCK]], but top level block is 6[TRYBLOCK]
+
+
+server.life.MapleMonsterInformationProvider
+----------------------------
+
+ALLATORIxDEMO()
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Tried to end blocks [2[TRYBLOCK], 0[TRYBLOCK]], but top level block is 10[CATCHBLOCK]
+loadAllMobName()
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Tried to end blocks [1[TRYBLOCK]], but top level block is 4[TRYBLOCK]
+retrieveMonster(int )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Tried to end blocks [0[TRYBLOCK]], but top level block is 4[TRYBLOCK]
+AddDropData(int int int int )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Tried to end blocks [3[TRYBLOCK]], but top level block is 5[TRYBLOCK]
+UpdateDropChance(int int int )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Tried to end blocks [3[TRYBLOCK]], but top level block is 5[TRYBLOCK]
+H()
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Tried to end blocks [2[TRYBLOCK], 0[TRYBLOCK]], but top level block is 10[CATCHBLOCK]
+retrieveDrop(int boolean )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Tried to end blocks [0[TRYBLOCK]], but top level block is 5[TRYBLOCK]
+
+
+server.gashapon.GashaponFactory
+----------------------------
+
+reloadGashapons()
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Started 2 blocks at once
+reloadGashapons(int )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Tried to end blocks [2[TRYBLOCK]], but top level block is 4[TRYBLOCK]
+
+
+server.gashapon.Gashapon
+----------------------------
+
+ChangeChance(client.MapleCharacter int int )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Tried to end blocks [3[TRYBLOCK]], but top level block is 5[TRYBLOCK]
+reloadItems()
+  Unable to fully structure code
+AddItem(client.MapleCharacter int int boolean )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Tried to end blocks [1[TRYBLOCK], 3[TRYBLOCK]], but top level block is 5[TRYBLOCK]
+
+
+server.gashapon.GashaponSpecial
+----------------------------
+
+removeFromSQL(int )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Tried to end blocks [3[TRYBLOCK]], but top level block is 5[TRYBLOCK]
+
+
+server.ShutdownServer
+----------------------------
+
+run()
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Started 3 blocks at once
+
+
+server.maps.Event_DojoAgent
+----------------------------
+
+warpNextMap(client.MapleCharacter boolean )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Tried to end blocks [5[TRYBLOCK]], but top level block is 12[WHILELOOP]
+
+
+server.maps.MapleMapRank
+----------------------------
+
+FishRank(tools.data.LittleEndianAccessor client.MapleClient client.MapleCharacter )
+  Unable to fully structure code
+PVPRank(tools.data.LittleEndianAccessor client.MapleClient client.MapleCharacter )
+  Unable to fully structure code
+
+
+server.maps.MapScriptMethods
+----------------------------
+
+startScript_User(client.MapleClient java.lang.String )
+  Unable to fully structure code
+
+
+server.maps.MapleReactor
+----------------------------
+
+hitReactor(int short client.MapleClient )
+  Unable to fully structure code
+
+
+server.maps.MapleMapFactory
+----------------------------
+
+getMap(int boolean boolean boolean )
+  Unable to fully structure code
+ALLATORIxDEMO(provider.MapleData java.lang.String byte int )
+  Unable to fully structure code
+loadCustomLife(boolean server.maps.MapleMap )
+  Unable to fully structure code
+
+
+server.maps.MapleGenericPortal
+----------------------------
+
+enterPortal(client.MapleClient )
+  Unable to fully structure code
+
+
+server.maps.Extend.MapNoticeFactory
+----------------------------
+
+loadMapNotice()
+  Loose catch block
+
+
+server.maps.MapleMap
+----------------------------
+
+addPlayer(client.MapleCharacter )
+  Unable to fully structure code
+killMonster(server.life.MapleMonster client.MapleCharacter boolean boolean byte int )
+  Unable to fully structure code
+getRankAndAdd(java.lang.String java.lang.String server.maps.SpeedRunType long java.util.Collection<java.lang.String> )
+  Unable to fully structure code
+spawnMist(server.maps.MapleMist int boolean )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Tried to end blocks [5[CASE], 1[SWITCH]], but top level block is 0[TRYBLOCK]
+
+
+server.CashShop
+----------------------------
+
+gift(int java.lang.String java.lang.String int int int )
+  Unable to fully structure code
+
+
+server.MapleInventoryManipulator
+----------------------------
+
+equip(client.MapleClient short short )
+  Unable to fully structure code
+addFromDrop(client.MapleClient client.inventory.IItem boolean boolean boolean )
+  Unable to fully structure code
+drop(client.MapleClient client.inventory.MapleInventoryType short short boolean )
+  Unable to fully structure code
+
+
+server.quest.MapleQuestAction
+----------------------------
+
+checkEnd(client.MapleCharacter java.lang.Integer )
+  Unable to fully structure code
+runStart(client.MapleCharacter java.lang.Integer )
+  Unable to fully structure code
+runEnd(client.MapleCharacter java.lang.Integer )
+  Unable to fully structure code
+
+
+server.quest.MapleQuestRequirement
+----------------------------
+
+check(client.MapleCharacter java.lang.Integer )
+  Unable to fully structure code
+
+
+server.quest.MapleQuest
+----------------------------
+
+complete(client.MapleCharacter int java.lang.Integer boolean )
+  Unable to fully structure code
+
+
+server.events.MapleOxQuizFactory
+----------------------------
+
+initialize()
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Started 2 blocks at once
+getFromSQL(java.lang.String )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Tried to end blocks [4[TRYBLOCK]], but top level block is 7[TRYBLOCK]
+reloadOX()
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Tried to end blocks [2[TRYBLOCK]], but top level block is 6[TRYBLOCK]
+
+
+server.MapleGachapon
+----------------------------
+
+gainItem(server.MapleGachaponItem )
+  Unable to fully structure code
+
+
+server.Extend.SpecialItemFactory
+----------------------------
+
+loadSpecialItem()
+  Loose catch block
+
+
+server.Extend.SpecialEquipFactory
+----------------------------
+
+loadSpecialEquip()
+  Loose catch block
+
+
+server.Coupon.CouponFactory
+----------------------------
+
+getNXCodeSize(java.lang.String )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Tried to end blocks [4[TRYBLOCK]], but top level block is 7[TRYBLOCK]
+getNXCodeValid(java.lang.String boolean )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Tried to end blocks [4[TRYBLOCK], 2[TRYBLOCK]], but top level block is 7[TRYBLOCK]
+getNXCodeTime(java.lang.String )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Tried to end blocks [4[TRYBLOCK]], but top level block is 7[TRYBLOCK]
+getNXCodeInfo(java.lang.String )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Tried to end blocks [1[TRYBLOCK], 3[TRYBLOCK]], but top level block is 5[TRYBLOCK]
+setNXCodeUsed(java.lang.String java.lang.String )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Tried to end blocks [2[TRYBLOCK]], but top level block is 7[CATCHBLOCK]
+getNXCodeExist(java.lang.String )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Tried to end blocks [2[TRYBLOCK]], but top level block is 6[TRYBLOCK]
+CreateNXCode_Center(java.lang.String int int int int )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Tried to end blocks [3[TRYBLOCK], 1[TRYBLOCK]], but top level block is 5[TRYBLOCK]
+getNXCodeType(java.lang.String )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Tried to end blocks [4[TRYBLOCK]], but top level block is 7[TRYBLOCK]
+CreateNXCode(java.lang.String int int int )
+  Loose catch block
+getNXCodeItem(java.lang.String )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Tried to end blocks [4[TRYBLOCK]], but top level block is 7[TRYBLOCK]
+
+
+server.Coupon.Coupon
+----------------------------
+
+reloadItems()
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Tried to end blocks [1[TRYBLOCK]], but top level block is 4[TRYBLOCK]
+
+
+server.MTSStorage
+----------------------------
+
+ALLATORIxDEMO()
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Started 2 blocks at once
+
+
+server.MapleShop
+----------------------------
+
+sell(client.MapleClient client.inventory.MapleInventoryType byte short )
+  Unable to fully structure code
+createFromDB(int boolean )
+  Unable to fully structure code
+
+
+server.Start
+----------------------------
+
+ALLATORIxDEMO()
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Tried to end blocks [3[TRYBLOCK]], but top level block is 5[TRYBLOCK]
+
+
+server.MapleItemInformationProvider
+----------------------------
+
+scrollEquipWithId(client.inventory.IItem client.inventory.IItem boolean client.MapleCharacter int )
+  Unable to fully structure code
+ModifySlotMax()
+  Unable to fully structure code
+loadAllMapName()
+  Unable to fully structure code
+getModifySlotMax(int )
+  Unable to fully structure code
+loadEtc(boolean )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Tried to end blocks [0[TRYBLOCK]], but top level block is 3[TRYBLOCK]
+getRechargeItems()
+  Unable to fully structure code
+scrollEnhance(client.inventory.IItem client.inventory.IItem client.MapleCharacter )
+  Unable to fully structure code
+loadItems(boolean )
+  Unable to fully structure code
+scrollPotential(client.inventory.IItem client.inventory.IItem client.MapleCharacter )
+  Unable to fully structure code
+
+
+server.MTSCart
+----------------------------
+
+loadNotYetSold()
+  Unable to fully structure code
+loadCart()
+  Unable to fully structure code
+
+
+server.SpeedRunner
+----------------------------
+
+loadSpeedRunData(server.maps.SpeedRunType )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Tried to end blocks [1[TRYBLOCK]], but top level block is 4[TRYBLOCK]
+
+
+server.FishingRewardFactory
+----------------------------
+
+ALLATORIxDEMO()
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Tried to end blocks [2[TRYBLOCK]], but top level block is 6[TRYBLOCK]
+
+
+server.Auction.AuctionItemFactory
+----------------------------
+
+InsertAuctionItem(int int int int )
+  Unable to fully structure code
+getAuctionItems(client.MapleCharacter )
+  Unable to fully structure code
+loadAuctionItem()
+  Unable to fully structure code
+DeleteAuctionItem(int int )
+  Unable to fully structure code
+ALLATORIxDEMO(int int )
+  Unable to fully structure code
+ALLATORIxDEMO(int )
+  Unable to fully structure code
+
+
+server.MapleStatEffect
+----------------------------
+
+ALLATORIxDEMO(client.MapleCharacter client.MapleCharacter boolean int boolean )
+  Unable to fully structure code
+
+
+server.swing.Recovery.Main
+----------------------------
+
+start(java.lang.String )
+  Unable to fully structure code
+CreateInvInfo(java.sql.ResultSet )
+  Unable to fully structure code
+CreateEquipInfo(java.sql.ResultSet long )
+  Unable to fully structure code
+
+
+server.swing.Recovery.DatabaseConnection
+----------------------------
+
+ALLATORIxDEMO()
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Tried to end blocks [2[TRYBLOCK], 4[TRYBLOCK]], but top level block is 7[TRYBLOCK]
+
+
+server.swing.Item.ItemsSearch
+----------------------------
+
+run()
+  Unable to fully structure code
+
+
+server.swing.WvsCenter
+----------------------------
+
+tC(java.awt.event.ActionEvent )
+  Unable to fully structure code
+ALLATORIxDEMO(int int )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Started 3 blocks at once
+l(java.lang.String )
+  Loose catch block
+kA(java.awt.event.ActionEvent )
+  Unable to fully structure code
+UpdateGashaponItem(java.lang.Object[] )
+  Unable to fully structure code
+ALLATORIxDEMO(long )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Tried to end blocks [1[TRYBLOCK]], but top level block is 11[WHILELOOP]
+ALLATORIxDEMO(int java.lang.String )
+  Loose catch block
+findProcess(java.lang.String )
+  Unable to fully structure code
+UA(java.awt.event.ActionEvent )
+  Unable to fully structure code
+B()
+  Unable to fully structure code
+run()
+  Unable to fully structure code
+OA(java.awt.event.ActionEvent )
+  Unable to fully structure code
+UpdateGlobalDrop(java.lang.Object[] )
+  Unable to fully structure code
+ALLATORIxDEMO()
+  Unable to fully structure code
+H(boolean client.inventory.ItemLoader )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Tried to end blocks [0[TRYBLOCK]], but top level block is 17[CATCHBLOCK]
+ALLATORIxDEMO(java.lang.String )
+  Loose catch block
+UpdateRewardItem(java.lang.Object[] )
+  Unable to fully structure code
+sC(java.awt.event.ActionEvent )
+  Unable to fully structure code
+AddRewardItem(java.lang.Object[] )
+  Unable to fully structure code
+bA(java.awt.event.ActionEvent )
+  Unable to fully structure code
+vb(java.awt.event.ActionEvent )
+  Unable to fully structure code
+AddGlobalDrop(java.lang.Object[] )
+  Unable to fully structure code
+initShopItemPannel()
+  Loose catch block
+H(java.lang.String )
+  Loose catch block
+E(java.awt.event.ActionEvent )
+  Unable to fully structure code
+C()
+  Loose catch block
+AddGlobalDropHell(java.lang.Object[] )
+  Unable to fully structure code
+g()
+  Loose catch block
+Ja(java.awt.event.ActionEvent )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Tried to end blocks [1[TRYBLOCK]], but top level block is 3[TRYBLOCK]
+o()
+  Loose catch block
+D(java.awt.event.ActionEvent )
+  Unable to fully structure code
+AddGashaponItem(java.lang.Object[] )
+  Unable to fully structure code
+ALLATORIxDEMO(boolean client.inventory.ItemLoader )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Tried to end blocks [0[TRYBLOCK]], but top level block is 17[CATCHBLOCK]
+ALLATORIxDEMO(int )
+  Unable to fully structure code
+Id(java.awt.event.ActionEvent )
+  Unable to fully structure code
+Z()
+  Loose catch block
+dC(java.awt.event.ActionEvent )
+  Unable to fully structure code
+c()
+  Loose catch block
+Sd(java.awt.event.ActionEvent )
+  Unable to fully structure code
+e()
+  Loose catch block
+AddShopItem(java.lang.Object[] )
+  Unable to fully structure code
+UpdateGlobalDropHell(java.lang.Object[] )
+  Unable to fully structure code
+ALLATORIxDEMO(boolean )
+  Loose catch block
+Cb(java.awt.event.ActionEvent )
+  Unable to fully structure code
+AddDropItem(java.lang.Object[] )
+  Unable to fully structure code
+Ua(java.awt.event.ActionEvent )
+  Unable to fully structure code
+R()
+  Loose catch block
+
+
+server.swing.UIHelper
+----------------------------
+
+findProcess(java.lang.String )
+  Unable to fully structure code
+
+
+server.swing.tools.FixJavaScript
+----------------------------
+
+run()
+  Unable to fully structure code
+
+
+server.swing.tools.BytesEncodingDetect
+----------------------------
+
+main(java.lang.String[] )
+  Unable to fully structure code
+
+
+server.swing.tools.ScriptExport
+----------------------------
+
+ALLATORIxDEMO(java.lang.String )
+  Loose catch block
+
+
+server.swing.CashShop.CashShopManager
+----------------------------
+
+ALLATORIxDEMO(int java.lang.String )
+  Unable to fully structure code
+run()
+  Unable to fully structure code
+ALLATORIxDEMO(int java.lang.String int )
+  Unable to fully structure code
+ALLATORIxDEMO(int )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Tried to end blocks [3[TRYBLOCK], 1[TRYBLOCK]], but top level block is 5[TRYBLOCK]
+D(java.awt.event.ActionEvent )
+  Unable to fully structure code
+
+
+server.swing.CashShop.CashShopItemAdder
+----------------------------
+
+findNextEmptySN(int )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Tried to end blocks [3[TRYBLOCK]], but top level block is 5[TRYBLOCK]
+
+
+server.CashItemFactory
+----------------------------
+
+ALLATORIxDEMO(java.lang.String )
+  Unable to fully structure code
+deleteModItem(int )
+  Unable to fully structure code
+ALLATORIxDEMO(boolean )
+  Unable to fully structure code
+
+
+Start.StartServer
+----------------------------
+
+main(java.lang.String[] )
+  Unable to fully structure code
+
+
+tools.data.MaplePacketLittleEndianWriter
+----------------------------
+
+writeFile(java.io.File )
+  Unable to fully structure code
+
+
+tools.FileoutputUtil
+----------------------------
+
+logToFile(java.lang.String java.lang.String boolean boolean boolean )
+  Loose catch block
+
+
+tools.FilePrinter
+----------------------------
+
+print(java.lang.String java.lang.String boolean )
+  Loose catch block
+printError(java.lang.String java.lang.Throwable java.lang.String )
+  Loose catch block
+printError(java.lang.String java.lang.String )
+  Loose catch block
+printError(java.lang.String java.lang.Throwable )
+  Loose catch block
+
+
+tools.EmojiFilter
+----------------------------
+
+SupportEmoji_BuddyGroupName()
+  Unable to fully structure code
+SupportEmoji_bbs_threads_name()
+  Unable to fully structure code
+SupportEmoji_Default()
+  Unable to fully structure code
+SupportEmoji_bbs_threads_content()
+  Unable to fully structure code
+SupportEmoji_bbs_threads_startpost()
+  Unable to fully structure code
+SupportEmoji_charmessage()
+  Unable to fully structure code
+SupportEmoji_SkillMacroName()
+  Unable to fully structure code
+
+
+tools.damageSkin.AttackFont
+----------------------------
+
+LoadAllFont()
+  Unable to fully structure code
+insertFont(int int )
+  Unable to fully structure code
+
+
+tools.npcgenerator.NPCScriptGenerator
+----------------------------
+
+E()
+  Unable to fully structure code
+ALLATORIxDEMO()
+  Unable to fully structure code
+
+
+tools.CheckCodeImageCreator
+----------------------------
+
+getRandWord(int int int java.awt.Graphics2D constants.ServerConstants$MapleType )
+  Unable to fully structure code
+
+
+tools.CaltechEval
+----------------------------
+
+reduceTokens(java.util.Vector )
+  Unable to fully structure code
+
+
+tools.otp.GoogleAuthenticator
+----------------------------
+
+createOTPKey(java.lang.String )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Tried to end blocks [4[TRYBLOCK]], but top level block is 6[TRYBLOCK]
+
+
+tools.use.xml.UltimateWzClearChair
+----------------------------
+
+main(java.lang.String[] )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Tried to end blocks [1[TRYBLOCK]], but top level block is 11[UNCONDITIONALDOLOOP]
+
+
+tools.use.xml.UltimateWzConvert
+----------------------------
+
+main(java.lang.String[] )
+  Unable to fully structure code
+
+
+tools.use.xml.UltimateXMLSourceParser
+----------------------------
+
+replaceSourceValues(java.io.File )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Tried to end blocks [9[WHILELOOP]], but top level block is 4[TRYBLOCK]
+
+
+tools.use.xml.TamingMobFix.TamingMobFix
+----------------------------
+
+main(java.lang.String[] )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Started 2 blocks at once
+
+
+tools.use.xml.InlinkFix.LinkFix
+----------------------------
+
+main(java.lang.String[] )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Started 2 blocks at once
+
+
+tools.use.xml.CharacterInfoNode
+----------------------------
+
+main(java.lang.String[] )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Started 3 blocks at once
+
+
+tools.use.xml.string.StringNodeChange
+----------------------------
+
+main(java.lang.String[] )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Started 2 blocks at once
+
+
+tools.use.xml.flychair.ChairNodeInlink
+----------------------------
+
+main(java.lang.String[] )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Tried to end blocks [1[TRYBLOCK]], but top level block is 13[UNCONDITIONALDOLOOP]
+replaceSourceValues(java.io.File )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Started 2 blocks at once
+
+
+tools.use.xml.flychair.ChairNodeClear
+----------------------------
+
+main(java.lang.String[] )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Tried to end blocks [1[TRYBLOCK]], but top level block is 11[UNCONDITIONALDOLOOP]
+
+
+tools.use.xml.flychair.TamingMobNodeChange
+----------------------------
+
+main(java.lang.String[] )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Tried to end blocks [2[TRYBLOCK]], but top level block is 11[WHILELOOP]
+
+
+tools.use.xml.flychair.TamingMobNodeInlink
+----------------------------
+
+main(java.lang.String[] )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Tried to end blocks [1[TRYBLOCK]], but top level block is 11[UNCONDITIONALDOLOOP]
+replaceSourceValues(java.io.File )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Tried to end blocks [0[TRYBLOCK], 13[DOLOOP]], but top level block is 7[CATCHBLOCK]
+isreplaceNodes(java.lang.String )
+  Exception : org.benf.cfr.reader.bytecode.analysis.opgraph.op4rewriters.SwitchStringRewriter$TooOptimisticMatchException
+
+
+tools.use.xml.removeChild
+----------------------------
+
+remove(java.lang.String java.lang.String[] )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Started 2 blocks at once
+
+
+tools.use.xml.UltimateWzClear
+----------------------------
+
+main(java.lang.String[] )
+  Unable to fully structure code
+
+
+tools.use.xml.cleaner.xmlScanner
+----------------------------
+
+main(java.lang.String[] )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Started 2 blocks at once
+
+
+tools.use.xml.cleaner.xmlCleaner
+----------------------------
+
+main(java.lang.String[] )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Started 2 blocks at once
+
+
+tools.use.xml.swing.XMLGUI
+----------------------------
+
+run()
+  Unable to fully structure code
+
+
+tools.use.GetMACAddress
+----------------------------
+
+getMotherboardSN()
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Tried to end blocks [2[TRYBLOCK], 0[TRYBLOCK]], but top level block is 4[TRYBLOCK]
+
+
+tools.wztosql.DumpAllCashShop
+----------------------------
+
+dumpItems()
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Tried to end blocks [1[TRYBLOCK], 3[TRYBLOCK]], but top level block is 9[CATCHBLOCK]
+delete(java.lang.String )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Tried to end blocks [2[TRYBLOCK]], but top level block is 7[CATCHBLOCK]
+addbatch(java.sql.PreparedStatement )
+  Loose catch block
+
+
+tools.wztosql.DumpCashShopSQLtoXML
+----------------------------
+
+loadAllCashShopData()
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Tried to end blocks [15[WHILELOOP]], but top level block is 3[TRYBLOCK]
+
+
+tools.wztosql.DumpItemsIndividual
+----------------------------
+
+dumpItems(java.lang.String )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Tried to end blocks [3[TRYBLOCK]], but top level block is 5[TRYBLOCK]
+delete(java.lang.String )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Tried to end blocks [2[TRYBLOCK]], but top level block is 7[CATCHBLOCK]
+dumpItem(java.sql.PreparedStatement java.sql.PreparedStatement java.sql.PreparedStatement java.sql.PreparedStatement provider.MapleData )
+  Unable to fully structure code
+
+
+tools.wztosql.DumpCashShop
+----------------------------
+
+cleanDuplicateItem()
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Tried to end blocks [3[TRYBLOCK]], but top level block is 25[WHILELOOP]
+main(java.lang.String[] )
+  Unable to fully structure code
+deleteOldCashItems()
+  Unable to fully structure code
+deleteCashShopItem(int )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Tried to end blocks [3[TRYBLOCK]], but top level block is 5[TRYBLOCK]
+CashShopItemExists(int )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Tried to end blocks [4[TRYBLOCK]], but top level block is 7[TRYBLOCK]
+
+
+tools.wztosql.DumpMapName
+----------------------------
+
+dumpMapName()
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Tried to end blocks [1[TRYBLOCK], 3[TRYBLOCK]], but top level block is 9[CATCHBLOCK]
+doesExist(java.lang.String )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Tried to end blocks [2[TRYBLOCK]], but top level block is 7[CATCHBLOCK]
+dumpMapName(java.sql.PreparedStatement )
+  Unable to fully structure code
+
+
+tools.wztosql.DumpQuests
+----------------------------
+
+delete(java.lang.String )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Tried to end blocks [2[TRYBLOCK]], but top level block is 7[CATCHBLOCK]
+dumpQuests(java.sql.PreparedStatement java.sql.PreparedStatement java.sql.PreparedStatement java.sql.PreparedStatement java.sql.PreparedStatement java.sql.PreparedStatement java.sql.PreparedStatement )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Tried to end blocks [38[UNCONDITIONALDOLOOP]], but top level block is 51[WHILELOOP]
+dumpQuests()
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Tried to end blocks [2[TRYBLOCK]], but top level block is 7[CATCHBLOCK]
+doesExist(java.lang.String )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Tried to end blocks [3[TRYBLOCK]], but top level block is 5[TRYBLOCK]
+
+
+tools.wztosql.DumpItems
+----------------------------
+
+dumpItems()
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Tried to end blocks [3[TRYBLOCK]], but top level block is 5[TRYBLOCK]
+delete(java.lang.String )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Tried to end blocks [2[TRYBLOCK]], but top level block is 7[CATCHBLOCK]
+
+
+tools.wztosql.DumpMobSkills
+----------------------------
+
+dumpMobSkills()
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Tried to end blocks [3[TRYBLOCK]], but top level block is 5[TRYBLOCK]
+delete(java.lang.String )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Tried to end blocks [2[TRYBLOCK]], but top level block is 7[CATCHBLOCK]
+doesExist(java.lang.String )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Tried to end blocks [2[TRYBLOCK]], but top level block is 7[CATCHBLOCK]
+
+
+tools.wztosql.DumpItemsAdditions
+----------------------------
+
+dumpItems()
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Tried to end blocks [3[TRYBLOCK]], but top level block is 5[TRYBLOCK]
+delete(java.lang.String )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Tried to end blocks [2[TRYBLOCK]], but top level block is 7[CATCHBLOCK]
+
+
+tools.wztosql.DumpNpcNames
+----------------------------
+
+dumpNpcNameData()
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Tried to end blocks [2[TRYBLOCK]], but top level block is 13[CATCHBLOCK]
+
+
+tools.wztosql.MonsterDropCreator
+----------------------------
+
+delete(java.lang.String )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Tried to end blocks [2[TRYBLOCK]], but top level block is 7[CATCHBLOCK]
+main(java.lang.String[] )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Tried to end blocks [12[DOLOOP]], but top level block is 16[UNCONDITIONALDOLOOP]
+
+
+tools.FixDropNullItem
+----------------------------
+
+H()
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Tried to end blocks [1[TRYBLOCK]], but top level block is 11[DOLOOP]
+ALLATORIxDEMO()
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Tried to end blocks [1[TRYBLOCK]], but top level block is 11[DOLOOP]
+ALLATORIxDEMO(int )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Tried to end blocks [1[TRYBLOCK], 11[DOLOOP]], but top level block is 7[CATCHBLOCK]
+H(int )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Tried to end blocks [1[TRYBLOCK], 11[DOLOOP]], but top level block is 7[CATCHBLOCK]
+
+
+tools.crypt.JarEncryptor
+----------------------------
+
+encrypt(java.lang.String )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Started 3 blocks at once
+
+
+tools.GZIPCompression
+----------------------------
+
+compressA(java.lang.String )
+  Loose catch block
+compress(java.lang.String )
+  Loose catch block
+uncompressA(java.lang.String )
+  Unable to fully structure code
+decompress(java.lang.String )
+  Loose catch block
+
+
+tools.CashShopPacketDumper
+----------------------------
+
+addItem(int java.lang.String int int int int int int int int int int int int int )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Tried to end blocks [3[TRYBLOCK]], but top level block is 5[TRYBLOCK]
+deleteOldItems()
+  Unable to fully structure code
+
+
+tools.MaplePacketCreator
+----------------------------
+
+spawnPlayerMapobject(client.MapleCharacter )
+  Unable to fully structure code
+addShopItemInfo(tools.data.MaplePacketLittleEndianWriter server.MapleShopItem server.MapleShop server.MapleItemInformationProvider client.inventory.IItem client.MapleCharacter )
+  Unable to fully structure code
+addAttackBody(handling.SendPacketOpcode client.MapleCharacter int int handling.channel.handler.AttackInfo int byte int )
+  Unable to fully structure code
+
+
+tools.database.UniqueIdReset
+----------------------------
+
+resetRingId()
+  Loose catch block
+resetPetId()
+  Loose catch block
+
+
+tools.database.DatabaseConvert
+----------------------------
+
+AddDPM()
+  Unable to fully structure code
+AddServerSet()
+  Unable to fully structure code
+Add_WzItemData()
+  Unable to fully structure code
+Add_Fishing()
+  Unable to fully structure code
+GashaponMinMax()
+  Unable to fully structure code
+AddRewardTable()
+  Unable to fully structure code
+adddamageskin()
+  Unable to fully structure code
+Add_special_equip()
+  Unable to fully structure code
+teachskill()
+  Unable to fully structure code
+addInnerSkill()
+  Unable to fully structure code
+Add_offlineItem()
+  Unable to fully structure code
+AddGuild()
+  Unable to fully structure code
+ChangeChrTable()
+  Unable to fully structure code
+Add_MapData()
+  Unable to fully structure code
+AddChrJson()
+  Unable to fully structure code
+update_special_equip()
+  Unable to fully structure code
+addrechargeitem()
+  Unable to fully structure code
+Add_Imp()
+  Unable to fully structure code
+Add_MobData()
+  Unable to fully structure code
+addHsp()
+  Unable to fully structure code
+AddInvJson()
+  Unable to fully structure code
+expandKeyMap()
+  Unable to fully structure code
+ChangeWzItemAdd()
+  Unable to fully structure code
+addAttackIp()
+  Unable to fully structure code
+PetAdd()
+  Unable to fully structure code
+AddEcpaySystem()
+  Unable to fully structure code
+Add_special_item()
+  Unable to fully structure code
+CleanInventoryEquipment()
+  Unable to fully structure code
+Addwz_itemdata_modify_slotmax()
+  Unable to fully structure code
+MutipleWorld()
+  Unable to fully structure code
+updatespecial_equip()
+  Unable to fully structure code
+ChangeAndroidTable()
+  Unable to fully structure code
+addLineBot()
+  Unable to fully structure code
+ExcludeItemAdd()
+  Unable to fully structure code
+ChangeJson()
+  Unable to fully structure code
+updateShop()
+  Unable to fully structure code
+Add_GashaponSpecial()
+  Unable to fully structure code
+CheckItemAdd()
+  Unable to fully structure code
+Add_Storage_Exceed()
+  Unable to fully structure code
+AddSignLog()
+  Unable to fully structure code
+Add_Auction()
+  Unable to fully structure code
+Addguildsmap()
+  Unable to fully structure code
+WZ_OXData()
+  Unable to fully structure code
+addnameprizelog()
+  Unable to fully structure code
+ChangeShopitems()
+  Unable to fully structure code
+AddFishKing()
+  Unable to fully structure code
+ExcuteSql(java.lang.String )
+  Unable to fully structure code
+ChangeItemTable()
+  Unable to fully structure code
+Add_mapnotice()
+  Unable to fully structure code
+
+
+tools.database.CashShopConvert
+----------------------------
+
+StructureConvert()
+  Unable to fully structure code
+giftDataBaseChange()
+  Unable to fully structure code
+
+
+tools.database.ClearAllData
+----------------------------
+
+loadAllCharacter()
+  Loose catch block
+deleteAcount(int )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Tried to end blocks [3[TRYBLOCK]], but top level block is 5[TRYBLOCK]
+Execute(java.lang.String )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Tried to end blocks [2[TRYBLOCK]], but top level block is 7[CATCHBLOCK]
+
+
+tools.database.CharacterSetConverter
+----------------------------
+
+addDatabase()
+  Unable to fully structure code
+convert()
+  Unable to fully structure code
+
+
+tools.database.ItemConvertJson
+----------------------------
+
+ConvertAll_A()
+  Unable to fully structure code
+ConvertRange(int )
+  Loose catch block
+ConvertAll_CS()
+  Unable to fully structure code
+
+
+tools.database.DatabaseCheck
+----------------------------
+
+Execute(java.lang.String )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Tried to end blocks [3[TRYBLOCK]], but top level block is 5[TRYBLOCK]
+
+
+tools.packet.PetPacket
+----------------------------
+
+addPetInfo(tools.data.MaplePacketLittleEndianWriter client.MapleCharacter client.inventory.MaplePet boolean )
+  Unable to fully structure code
+
+
+tools.packet.PacketHelper
+----------------------------
+
+addItemInfo(tools.data.MaplePacketLittleEndianWriter client.inventory.IItem client.MapleCharacter )
+  Unable to fully structure code
+addCharacterInfo(tools.data.MaplePacketLittleEndianWriter client.MapleCharacter boolean )
+  Unable to fully structure code
+addBuffStat_135(tools.data.MaplePacketLittleEndianWriter client.MapleCharacter java.util.Map<handling.opcodes.MapleBuffStat, java.lang.Integer> )
+  Unable to fully structure code
+
+
+tools.packet.MTSCSPacket
+----------------------------
+
+addCashModItem(tools.data.MaplePacketLittleEndianWriter server.CashModItem )
+  Unable to fully structure code
+
+
+tools.packet.PlayerShopPacket
+----------------------------
+
+getMiniGameResult(server.shops.MapleMiniGame int int )
+  Unable to fully structure code
+
+
+tools.packet.LoginPacket
+----------------------------
+
+getAuthSuccessRequest(client.MapleClient )
+  Unable to fully structure code
+
+
+tools.packet.FamilyPacket
+----------------------------
+
+getFamilyPedigree(client.MapleCharacter )
+  Unable to fully structure code
+getFamilyPedigreeA(client.MapleCharacter )
+  Unable to fully structure code
+getFamilyResult(client.MapleCharacter )
+  Unable to fully structure code
+
+
+tools.DropTool
+----------------------------
+
+ALLATORIxDEMO(java.awt.event.MouseEvent )
+  Unable to fully structure code
+main(java.lang.String[] )
+  Unable to fully structure code
+
+
+tools.FixShopItemsPrice
+----------------------------
+
+ALLATORIxDEMO()
+  Unable to fully structure code
+ALLATORIxDEMO(int )
+  Unable to fully structure code
